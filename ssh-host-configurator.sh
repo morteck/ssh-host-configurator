@@ -2,7 +2,7 @@
 
 if [ "$#" -lt 2 ]; then echo "Usage: $0 [identity_file]" exit 1 fi
 
-USERNAME={3:-/home/haddo/.ssh/id_rsa} SSH_DIR="/home/haddo/.ssh/ CONFIG_FILE="$SSH_DIR/config"
+USERNAME={3:-~/.ssh/id_rsa} SSH_DIR="~/.ssh/ CONFIG_FILE="$SSH_DIR/config"
 
 Ensure SSH directory exists
 
