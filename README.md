@@ -29,17 +29,19 @@ Before you begin, ensure you have the following installed:
 
 Start by cloning the repository and navigating into the project directory:
 
+```
 git clone https://github.com/morteck/ssh-host-configurator.git
 cd ssh-host-configurator
+```
 
-Usage
-Add a New SSH Host
-To add a new SSH host and distribute your SSH key, simply run the script and follow the prompts:
-
+In order to add a new SSH host and distribute your SSH key, simply run the script and follow the prompts:
+```
 ./ssh-host-configurator.sh
-Custom SSH Key
+```
+
 If you want to use a custom SSH key, provide the path to your identity file:
-
+```
 ./ssh-host-configurator.sh -i /path/to/your/custom_key
+```
 
-Happy configuring! 🎉
+Happy configuring!
