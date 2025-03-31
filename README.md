@@ -49,7 +49,7 @@ Happy configuring!
 
 
 ###########################################################################
-#   Copyright (C) 2024  Mikael Todd <mikael.todd1@gmail.com>              #
+#   Copyright (C) 2024 Haddo Grepps              #
 #                                                                         #
 #   This program is free software: you can redistribute it and/or modify  #   
 #   it under the terms of the GNU General Public License as published by  #  
