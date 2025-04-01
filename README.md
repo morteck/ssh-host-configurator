@@ -6,15 +6,15 @@
 
 ## Overview
 
-Welcome to the **SSH Host Configurator**! This powerful and user-friendly bash script automates the process of adding SSH hosts and distributing SSH keys. Whether you are managing a few servers or a complex infrastructure, this tool ensures seamless and secure SSH access by efficiently managing your `~/.ssh/config` file and distributing SSH keys across multiple remote servers with ease.
+This powerful and user-friendly script automates the process of adding SSH hosts and distributing SSH keys. Whether you are managing a few servers or a complex infrastructure, this tool ensures seamless and secure SSH access by efficiently managing your `~/.ssh/config` file and handing out SSH keys across multiple remote servers.
 
 ## Features
 
-- 🚀 **Automated SSH Key Distribution**: Effortlessly copy your SSH public key to remote hosts, enabling passwordless SSH access.
-- ⚙️ **Automatic SSH Config Management**: Dynamically adds new SSH host configurations to your `~/.ssh/config` file.
-- 🔒 **Password Prompt for Authentication**: Automatically prompts for a password if SSH key authentication fails.
-- 🔑 **Custom SSH Key Support**: Flexibly specify a custom SSH identity file for your connections.
-- 🛡️ **Backup and Permissions**: Reliably creates backups of your SSH config file and ensures proper file permissions for security.
+- **Automated SSH Key Distribution**: Effortlessly copy your SSH public key to remote hosts, enabling passwordless SSH access.
+- **Automatic SSH Config Management**: Dynamically adds new SSH host configurations to your `~/.ssh/config` file.
+- **Password Prompt for Authentication**: Automatically prompts for a password if SSH key authentication fails.
+- **Custom SSH Key Support**: Flexibly specify a custom SSH identity file for your connections.=
+- **Backup and Permissions**: Reliably creates backups of your SSH config file and ensures proper file permissions for security.
 
 ## Requirements
 
